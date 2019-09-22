@@ -1,4 +1,4 @@
-from devices.tuya_smart_plug import TuyaSmartSwitch
+from tuya.devices.tuya_smart_plug import TuyaSmartSwitch
 import configparser
 
 CONFIG = configparser.ConfigParser()

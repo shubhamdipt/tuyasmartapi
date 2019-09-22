@@ -1,4 +1,4 @@
-from devices.tuya import Tuya
+from tuya import Tuya
 
 
 class TuyaSmartSwitch(Tuya):
