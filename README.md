@@ -23,6 +23,6 @@ Create a config.ini file with the following contents.
 
 ### Example
 
-    >>>from tuya.devices.tuya_smart_plug import TuyaSmartSwitch
+    >>>from tuya.devices import TuyaSmartSwitch
     >>>device = TuyaSmartSwitch(username=CONFIG["TUYA"]["username"], password=CONFIG["TUYA"]["password"], location=CONFIG["TUYA"]["location"], device=CONFIG["TUYA"]["device"])
     >>>print(device.get_status())
